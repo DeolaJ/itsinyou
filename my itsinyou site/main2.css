@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* 
+rgb(109, 125, 87) ash
+rgb(206, 9, 44)   almost pink
+rgb(44, 116, 169)  lighter blue
+rgb(45, 172, 156) ash blue
+rgb(188, 118. 75)  cowbell brown
+rgb(214, 30, 3) clay red
+*/ 
+/*reset styles*/
+article, nav, aside, section, footer, div, p, body, header {
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/*Global styles*/
+html {
+	background: rgb(214, 30, 3);
+	width: 100%;
+}
+
+body {
+	margin: 0 auto;
+	clear: right;
+	height: 100%;
+	border-top: 0;
+	vertical-align: baseline;
+	font-family: Arial;
+	font-size: 1em;
+	line-height: 1.3;
+	background-color: rgb(255, 255, 255);
+	margin-top: 0;
+	background-image: url(body2.jpg);
+}
+
+header {
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 90px;
+	background: rgba(45, 172, 156, 0.8);
+	padding-top: 20px;
+}
+h1 {
+	font-family: inherit;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+
+
+a {
+	color: rgb(206, 9, 44);
+	text-decoration: none;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+}
+
+em {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+aside {
+	float: right;
+	height: 1400px;
+	padding: 30px;
+	width: 300px;
+	border-left: 5px solid rgb(214, 30, 3);
+	border-radius: 2% 2% 2% 2%;
+	margin-left: 100px;
+	border-bottom: 200px;
+}
+
+article {
+	margin-left: 70px;
+}
+/*Basic layout styles*/
+header h1 {
+	font-size: 28px;
+	background-image: url(logo3.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 40px;
+ ;
+}
+
+article h1 {
+	font-size: 32px;
+	color: rgb(206, 9, 44);
+	text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.8);
+	display: block;
+}
+section h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.poems ul {
+	list-style-type: none;
+	background-color: rgb(188, 118. 75);
+	color: black;
+	font-weight: bolder;
+}
+.poems li {
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	text-decoration: none;
+}
+.members>h1 {
+	font-size: 1.5em;
+	font-family: inherit;
+	clear: left;
+	padding-top: 50px;
+	text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+.members p {
+	background-color: rgb(188, 118. 75);
+	font-size: 0.9em;
+}
+
+.welcome {
+	width: 430px;
+	height: 310px;
+	background-image: url(welcome.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-color: rgba(44, 116, 169, 0.5);
+	padding: 15px 15px 0px 445px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.welcome p {
+	font-weight: bold;
+}
+.head h1 {
+	color: rgb(206, 9, 44);
+	font-family: Georgia;
+	font-size: 3.2em;
+	margin: 5px 0px 0px 20px;
+	padding: 20px;
+}
+
+/*Specific layout styles*/
+#topmenu {
+	width: 800px;
+	font-size: 16px;
+	height: 27px;
+	font-weight: bold;
+	position: fixed;
+}
+#topmenu ul {
+	padding: 0;
+	margin: 50px;
+	list-style-type: none;
+	position: fixed;
+}
+#topmenu a {
+	width: 110px;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+	line-height: 27px;
+	float: left;
+	text-align: center;
+	background-color: rgb(109, 125, 87);
+	margin-right: 10px;
+	color: white;
+	border-radius: 0px 5px;
+	position: fixed;
+}
+#sidemenu {
+	height: 900px;
+	font-size: 50px;
+	margin: 0;
+	float: left;
+}
+#sidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#sidemenu a {
+	width: 200px;
+	height: 140px;
+	margin-bottom: 10px;
+	line-height: 140px;
+	background-color: rgba(109, 125, 87, 0.8);
+	text-align: center;
+	display: block;
+	color: white;
+	border-radius: 15px 0px;
+}
+#sidemenu ul li:nth-child(2n) a {
+	background-color: rgb(188, 118, 75);
+}
+#profiles {
+	font-size: 1em;
+	padding: 0;
+}
+#profiles ul {
+	margin: 0;
+	list-style-type: none;
+}
+#profiles a {
+	width: 200px;
+	height: 39px;
+	margin-bottom: 3px;
+	background-color: rgba(109, 125, 87, 0.8);
+	text-align: center;
+	display: block;
+	color: white;
+	text-decoration: none;
+	line-height: 39px;	
+}
+#profiles li:nth-child(2n) a {
+	background-color: rgb(188, 118, 75);
+}
+
+#sidemenu ul li a:hover, #topmenu a:hover, #profiles ul li a:hover {
+	background-color: red;
+}
+/*footer styles*/
+footer {
+	background: rgba(109, 125, 87, 0.8);
+	height: 50px;
+	width: 100%;
+	clear: both;
+	margin-top: 150px;
+}
+footer div {
+	line-height: 50px;
+	text-align: center;
+	padding: 0px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
